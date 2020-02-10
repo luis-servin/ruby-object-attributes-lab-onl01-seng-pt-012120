@@ -1,6 +1,9 @@
 class Dog 
-  def initialize(first_name, last_name)
-    @scrappy = first_name
-    @coco = last_name
+  def name=(dogs_name)
+    @this_dogs_name = dogs_name
+  end
+  
+  def name 
+    @this_dogs_name
   end
 end
