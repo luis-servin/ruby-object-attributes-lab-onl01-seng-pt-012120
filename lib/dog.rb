@@ -3,3 +3,4 @@ class Dog
     @scrappy = first_name
     @coco = last_name
   end
+end
